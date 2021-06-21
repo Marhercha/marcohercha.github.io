@@ -1,0 +1,15 @@
+body {
+    display:flex;
+    flex-direction: column;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    display: inline-block;
+}
+.right {
+    display: flex;
+    align-items: center;
+}
