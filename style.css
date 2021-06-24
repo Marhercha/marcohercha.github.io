@@ -1,15 +1,40 @@
 body {
     display:flex;
     flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
 }
-ul{
-    display: flex;
-    justify-content: space-between;
+a {
+    text-decoration: none;
 }
-.left {
-    display: inline-block;
-}
-.right {
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 8px 10px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    background-color: #DCA3E9;
+}
+.logo {
+    display: inline-block;
+    padding: 0 10px;
+    font-family: 'Teko';
+    font-weight: 800;
+    font-size: 40px;
+}
+ul {
+    display: flex;
+    font-weight: 550;
+    list-style-type: none;
+}
+li {
+    padding: 0 10px;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
 }
